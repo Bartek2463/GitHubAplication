@@ -1,4 +1,4 @@
-package com.example.githubaplication.userclient;
+package com.example.githubaplication.userclient.dto;
 
 import lombok.*;
 

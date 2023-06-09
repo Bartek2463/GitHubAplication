@@ -32,6 +32,16 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>1.5.3.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>cc.siyecao.mapper</groupId>
+            <artifactId>clover-mapper</artifactId>
+            <version>3.0.4</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -21,7 +21,7 @@ public class GitHubService {
     public RepositoryDtos[] getUserRepos(String developName){
         return restTemplate.getForEntity(REPO_URL, RepositoryDtos[].class,developName).getBody();
     }
-    public BranchDtos[] getUserRepos(String developName,String repoName){
+    public BranchDtos[] getBranchUserReposDevName(String developName,String repoName){
         return restTemplate.getForEntity(BRANCH_URL, BranchDtos[].class,developName,repoName).getBody();
     }
 }

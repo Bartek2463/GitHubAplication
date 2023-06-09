@@ -1,5 +1,6 @@
-package com.example.githubaplication.userclient;
+package com.example.githubaplication.userclient.dto;
 
+import com.example.githubaplication.userclient.dto.UserBranchDtos;
 import lombok.*;
 
 import java.util.List;
