@@ -11,8 +11,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitHubController {
     private final GitHubService gitHubService;
 
-    @GetMapping("/repos")
-    public GitHubDto gitHubDto(){
-        return gitHubService.getUser();
-    }
+
 }
