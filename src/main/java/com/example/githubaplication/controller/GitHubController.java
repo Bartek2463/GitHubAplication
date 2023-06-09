@@ -1,7 +1,7 @@
 package com.example.githubaplication.controller;
 
 import com.example.githubaplication.model.GitHubDto;
-import com.example.githubaplication.service.GitHubService;
+import com.example.githubaplication.apiConect.service.GitHubService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

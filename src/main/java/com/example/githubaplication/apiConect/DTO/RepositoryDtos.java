@@ -1,4 +1,4 @@
-package com.example.githubaplication.dto;
+package com.example.githubaplication.apiConect.DTO;
 
 import lombok.Builder;
 
