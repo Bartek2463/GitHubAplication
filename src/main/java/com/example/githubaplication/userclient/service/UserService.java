@@ -8,6 +8,7 @@ import com.example.githubaplication.mapper.MapStructMapper;
 import com.example.githubaplication.userclient.dto.UserRepositoryDtos;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
@@ -15,11 +16,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-@Service
+@Component
+
 @AllArgsConstructor
 public class UserService {
     private final GitHubService gitHubService;
     private final MapStructMapper mapper;
+
+
 
 
     public ResponseEntity<?> getRepositoryforName(String userName){
